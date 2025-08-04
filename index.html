@@ -18,10 +18,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
+  <link rel="stylesheet" href="assets/css/floating-wpp.min.css">
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
@@ -36,7 +40,7 @@
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
           <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:hello@atzelevator.com">hello@atzelevator.com</a></i>
-          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9334119103</span></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91 9334391799</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
           <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
@@ -1709,7 +1713,7 @@
                 </div>
                 <div class="contact-text">
                   <h4>Email</h4>
-                  <p>info@examplecompany.com</p>
+                  <p>hello@atzelevator.com</p>
                 </div>
               </div>
 
@@ -1719,7 +1723,7 @@
                 </div>
                 <div class="contact-text">
                   <h4>Call</h4>
-                  <p>+1 (212) 555-7890</p>
+                  <p>+91 9334391799</p>
                 </div>
               </div>
 
@@ -1822,7 +1826,7 @@
           <p>A108 Adam Street</p>
           <p>New York, NY 535022</p>
           <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+91 9334119103</span></p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 9334391799</span></p>
           <p><strong>Email:</strong> <span>hello@atzelevator.com</span></p>
         </div>
 
@@ -1860,7 +1864,13 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <div id="myDiv"></div>
 </body>
-
+<script type="text/javascript">
+  $(function () {
+    $('#myDiv').floatingWhatsApp({
+      phone: '917058596300'
+    });
+  });
+</script>
 </html>
